@@ -40,7 +40,7 @@ export const Home = () => {
                       <strong>Phone:</strong> {user.phone}
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                      <strong>Address:</strong> {user.address.address}, {user.address.city}
+                      <strong>address:</strong> {user.address.address}, {user.address.city}
                     </Typography>
                   </CardContent>
                 </Card>
