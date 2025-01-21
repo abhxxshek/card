@@ -34,10 +34,10 @@ export const Home = () => {
                       <strong>Email:</strong> {user.email}
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                      <strong>Gender:</strong> {user.gender}
+                      <strong>gender:</strong> {user.gender}
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                      <strong>Phone:</strong> {user.phone}
+                      <strong>phone:</strong> {user.phone}
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
                       <strong>Address:</strong> {user.address.address}, {user.address.city}
